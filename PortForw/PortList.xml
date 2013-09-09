@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPFItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PFItem>
+    <LocalIp>127.0.0.1</LocalIp>
+    <LocalPort>12345</LocalPort>
+    <LocalCopmress>false</LocalCopmress>
+    <RemoteIp>127.0.0.1</RemoteIp>
+    <RemotePort>81</RemotePort>
+    <RemoteCopmress>false</RemoteCopmress>
+  </PFItem>
+    <PFItem>
+    <LocalIp>127.0.0.1</LocalIp>
+    <LocalPort>81</LocalPort>
+    <LocalCopmress>false</LocalCopmress>
+    <RemoteIp>127.0.0.1</RemoteIp>
+    <RemotePort>80</RemotePort>
+    <RemoteCopmress>false</RemoteCopmress>
+  </PFItem>
+</ArrayOfPFItem>

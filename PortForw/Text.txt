@@ -1,0 +1,23 @@
+﻿C:\Windows\system32>netsh
+netsh>interface
+netsh interface>portproxy
+netsh interface portproxy>add v4tov4 listenport=12345 connectaddress=192.168.0.2  connectport=22 listenaddress=0.0.0.0
+
+netsh interface portproxy>dump
+
+#===========================
+# Конфигурация портов прокси
+#===========================
+pushd interface portproxy
+
+reset
+add v4tov4 listenport=12345 connectaddress=192.168.0.2 connectport=22
+
+
+popd
+
+# Конец конфигурации портов прокси
+
+
+
+Тем самым получаем проброс порта 12345 на 192.168.0.2:22 
